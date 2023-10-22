@@ -9,19 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
-                
-            }
-            Image("anurag-pic")
-                .resizable()
-                .frame(width: 250, height: 400)
-                .cornerRadius(20)
-                .imageScale(.small)
-                .padding(20)
-            Text("Hello, world!")
+        TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "person")
+                }
+            
+            StoryView()
+                .tabItem {
+                    Label("Story", systemImage: "book")
+                }
         }
-        .padding()
     }
 }
 
