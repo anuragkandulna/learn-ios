@@ -22,6 +22,11 @@ struct ContentView: View {
             
             FavoritesView()
                 .tabItem {
+                    Label("Favourites", systemImage: "star")
+                }
+            
+            FunFactsView()
+                .tabItem {
                     Label("Fun Facts", systemImage: "hand.thumbsup")
                 }
         }

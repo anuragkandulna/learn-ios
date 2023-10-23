@@ -10,6 +10,7 @@
 		754C016A2AE5B0BA00D30893 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C01692AE5B0BA00D30893 /* HomeView.swift */; };
 		754C016C2AE5B81500D30893 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C016B2AE5B81500D30893 /* StoryView.swift */; };
 		754C016E2AE5BED400D30893 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754C016D2AE5BED400D30893 /* FavouritesView.swift */; };
+		758C80252AE6E58100CC7DAC /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758C80242AE6E58100CC7DAC /* FunFactsView.swift */; };
 		758F0DC82A21D2FB0074217E /* learniosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F0DC72A21D2FB0074217E /* learniosApp.swift */; };
 		758F0DCA2A21D2FB0074217E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758F0DC92A21D2FB0074217E /* ContentView.swift */; };
 		758F0DCC2A21D2FC0074217E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758F0DCB2A21D2FC0074217E /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		754C01692AE5B0BA00D30893 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		754C016B2AE5B81500D30893 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 		754C016D2AE5BED400D30893 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		758C80242AE6E58100CC7DAC /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 		758F0DC42A21D2FB0074217E /* learnios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758F0DC72A21D2FB0074217E /* learniosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learniosApp.swift; sourceTree = "<group>"; };
 		758F0DC92A21D2FB0074217E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				754C01692AE5B0BA00D30893 /* HomeView.swift */,
 				754C016B2AE5B81500D30893 /* StoryView.swift */,
 				754C016D2AE5BED400D30893 /* FavouritesView.swift */,
+				758C80242AE6E58100CC7DAC /* FunFactsView.swift */,
 			);
 			path = learnios;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				754C016C2AE5B81500D30893 /* StoryView.swift in Sources */,
 				754C016E2AE5BED400D30893 /* FavouritesView.swift in Sources */,
 				75C36F9A2AD19A810021A210 /* Data.swift in Sources */,
+				758C80252AE6E58100CC7DAC /* FunFactsView.swift in Sources */,
 				754C016A2AE5B0BA00D30893 /* HomeView.swift in Sources */,
 				758F0DCA2A21D2FB0074217E /* ContentView.swift in Sources */,
 				758F0DC82A21D2FB0074217E /* learniosApp.swift in Sources */,
