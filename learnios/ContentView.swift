@@ -19,6 +19,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Story", systemImage: "book")
                 }
+            
+            FavoritesView()
+                .tabItem {
+                    Label("Fun Facts", systemImage: "hand.thumbsup")
+                }
         }
     }
 }

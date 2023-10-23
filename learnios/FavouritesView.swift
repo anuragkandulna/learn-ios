@@ -33,7 +33,7 @@ struct FavoritesView: View {
                 .font(.title2)
             
             HStack(spacing: 60) {
-                ForEach(information.food, id: \.self) { food in
+                ForEach(information.foods, id: \.self) { food in
                     Text(food)
                         .font(.system(size: 48))
                 }
@@ -45,7 +45,7 @@ struct FavoritesView: View {
                 .font(.title2)
             
             HStack(spacing: 30) {
-                ForEach(information.colors, id: \.self) { color in 
+                ForEach(information.colors, id: \.self) { color in
                     color
                         .frame(width: 70, height: 70)
                         .cornerRadius(10)
@@ -59,6 +59,6 @@ struct FavoritesView: View {
 
 struct FavouritesView_Previews: PreviewProvider {
     static var previews: some View {
-        FavouritesView()
+        FavoritesView()
     }
 }
